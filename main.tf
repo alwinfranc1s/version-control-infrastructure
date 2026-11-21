@@ -4,7 +4,7 @@ resource "aws_s3_bucket" "project_bucket" {
   tags = {
     Name        = var.bucket_name
     Environment = "Learning"
-    Project     = "Terraform-Version-Control"
+    Project     = "Version-Control-Infrastructure"
   }
 }
 
